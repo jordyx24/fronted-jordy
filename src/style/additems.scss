@@ -1,0 +1,25 @@
+.main-add-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+}
+
+.main-add-container h1{
+    font-size: 4rem;
+    margin-bottom: 30px;
+}
+
+.add-container {
+    width: 100%;
+}
+
+.form-add{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
