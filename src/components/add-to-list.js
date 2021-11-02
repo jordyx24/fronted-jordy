@@ -31,8 +31,9 @@ export default class AddItems extends Component {
 
         axios.post("https://jordy-capstone-pj.herokuapp.com/thoughs", {
          
-            thoughs: this.state.thoughsInput,
-            name: this.state.nameInput
+            name: this.state.nameInput,
+            thoughs: this.state.thoughsInput
+            
             })
         
       
